@@ -1,0 +1,324 @@
+/*Start global*/
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    font-family: arial;
+}
+.container
+{
+  width: 970px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.clearfix
+{
+    clear: both;
+}
+/*End global*/
+/*Start navbar*/
+.nav-bar
+{
+    overflow: hidden;
+    height: 60px;
+}
+.nav-bar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar .logo
+{
+    color: #1D6FA3;
+    font-family: 'Merriweather Sans', sans-serif;
+    float: left;
+    width: 50%;
+    font-size: 20px;
+    line-height: .25
+}
+.nav-bar .links
+{
+    float: left;
+    width: 50%;
+}
+ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar .links li
+{
+    display: inline-block;
+    font-size: 19px;
+    margin-left: 25px
+}
+.nav-bar .links li.active , .nav-bar .links li:hover
+{
+    color: #1D6FA3;
+    cursor: pointer;
+    text-decoration: underline;
+}
+/*End navbar*/
+/*Start header*/
+.header
+{
+     background: url("../imgs/img2.JPG");
+     height: 688px;
+     position: relative;
+}
+
+.header .text
+{
+  position: absolute;
+  left: 40%;
+  top: 40%;
+  text-align: center;
+}
+.header .text h1
+{
+    color: #124463;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Midnight Shadows
+}
+.header .text p
+{
+    font-size: 20px
+}
+/*End header*/
+/*Start brief*/
+.section1
+{
+    height: 340px;
+    background: #eee;
+    padding-top: 70px;
+    
+}
+.section1 .content
+{
+    float: left;
+    width: 27.333%;
+    text-align: center;
+    margin-left: 50px;
+}
+.section1 .content i
+{
+    font-size: 50px;
+    color: #124463;
+}
+.section1 .content h3
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+.section1 .content p
+{
+    color: #AAA7A7
+}
+/*End brief*/
+/*Start service*/
+.section2
+{
+    padding-top: 70px;
+    clear: both;
+}
+.section2 .part1 
+{
+    text-align: center;
+}
+.section2 .part1 h2 , .portfolio .part1 h2 , .about .part1 h2 , .contact .part1 h2
+{
+    font-family: Midnight Shadows;
+    font-size: 120px;
+    color: #eee;
+}
+.section2 .part1 p , .portfolio .part1 p , .about .part1 p , .contact .part1 p
+{
+    margin-top: -146px;
+    color: #706C6C;
+    font-size: 20px
+}
+.section2 .part2
+{
+    margin-top: 70px;
+    float: left;
+    width: 47%;
+    margin-left: 14px
+}
+.section2 .part2 h3
+{
+    display: inline-block;
+    font-weight: bold;
+}
+.section2 .part2 p
+{
+    color: #706C6C;
+}
+.section2 .part2 i
+{
+    padding-right: 20px;
+    font-size: 30px;
+    color: #124463;
+}
+.section2 .part3
+{
+    float: left;
+    width: 60%;
+}
+.section2 .part4
+{
+    width: 0%
+}
+.section2 .part4 img
+{
+    width: 260px;
+    height: 360px;
+    margin-left: 100px;
+    margin-top: 118px;
+}
+/*End service*/
+/*Start portfolio*/
+.portfolio
+{
+    background-color: #F7F7F7;
+    height: 700px
+}
+.portfolio .part1
+{
+    text-align: center;
+}
+.portfolio .part2
+{
+    float: left;
+    width: 31.9%;
+    margin-top: 70px;
+    background: white;
+    margin-right: 13px;
+}
+.portfolio .part2 img
+{
+    width: 300px;
+}
+.portfolio .part2 p
+{
+    color: #706C6C;
+    padding-left: 15px
+}
+.portfolio .part2 h3
+{
+    padding-left: 15px
+}
+/*End portfolio*/
+/*Start about*/
+.cont
+{
+    margin-top: 100px
+}
+.cont .gray
+{
+    background-color: #CEC6C6;
+    width: 80px;
+    height: 360px;
+    position: absolute;
+}
+.cont .green
+{
+    background-color: #0F9B8D;
+    position: absolute;
+    margin-left: 300px;
+    margin-left: 179px;
+    width: 185px;
+    height: 307px;
+}
+.cont .white
+{
+    background-color: white;
+    position: absolute;
+    margin-left: 245px;
+    z-index: 999;
+    width: 119px;
+    height: 238px;
+}
+img
+{
+    width: 200px;
+    height: 300px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 20px
+}
+.about .part1
+{
+    text-align: center;
+}
+.about .part2
+{
+    float: left;
+    width: 50%;
+}
+.about .part3
+{
+    margin-top: 122px;
+    line-height: 1.5;
+}
+.about .part3 .p1
+{
+    font-weight: bold;
+}
+.about .part3 .p2
+{
+    color: #706C6C;
+}
+/*End about*/
+/*Start contact*/
+.contact
+{
+    background-color: #F7F7F7;
+}
+.contact 
+{
+    text-align: center;
+    height: 500px;
+}
+.contact .part2 h2
+{
+    color: #124463;
+    margin-top: 100px;
+    font-size: 30px
+}
+.contact .part2 a
+{
+    color: #09B2C1;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    display: block;
+}
+.contact .part2 p
+{
+    display: inline-block;
+    margin-right: 10px
+}
+.contact .part2 i
+{
+    padding-left: 5px;
+}
+/*End contact*/
+/*Start footer*/
+footer
+{
+    text-align: center;
+    background-color: #124463;
+    color: white;
+    height: 70px;
+    margin-top: -15px;
+    padding-top: 11px
+}
+/*End footer*/
+
+
